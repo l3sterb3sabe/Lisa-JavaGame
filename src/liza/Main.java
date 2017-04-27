@@ -1,0 +1,127 @@
+package liza;
+
+import java.util.Arrays;
+
+class Main {
+	
+	  static int[] r1c1 = {0, 0, 0, 0, 0, 0};
+	  static int[] r1c2 = {0, 0, 0, 0, 0, 0};
+	  static int[] r1c3 = {0, 0, 0, 0, 0, 0};
+	  static int[] r1c4 = {0, 0, 0, 0, 0, 0};
+	  static int[] r1c5 = {0, 0, 0, 0, 0, 0};
+	  static int[] r1c6 = {0, 0, 0, 0, 0, 0};
+	  static int[] r2c1 = {0, 0, 0, 0, 0, 0};
+	  static int[] r2c2 = {0, 0, 0, 0, 0, 0};
+	  static int[] r2c3 = {0, 0, 0, 0, 0, 0};
+	  static int[] r2c4 = {0, 0, 0, 0, 0, 0};
+	  static int[] r2c5 = {0, 0, 0, 0, 0, 0};
+	  static int[] r2c6 = {0, 0, 0, 0, 0, 0};
+	  static int[] r3c1 = {0, 0, 0, 0, 0, 0};
+	  static int[] r3c2 = {0, 0, 0, 0, 0, 0};
+	  static int[] r3c3 = {0, 0, 0, 0, 0, 0};
+	  static int[] r3c4 = {0, 0, 0, 0, 0, 0};
+	  static int[] r3c5 = {0, 0, 0, 0, 0, 0};
+	  static int[] r3c6 = {0, 0, 0, 0, 0, 0};
+	  static int[] r4c1 = {0, 0, 0, 0, 0, 0};
+	  static int[] r4c2 = {0, 0, 0, 0, 0, 0};
+	  static int[] r4c3 = {0, 0, 0, 0, 0, 0};
+	  static int[] r4c4 = {0, 0, 0, 0, 0, 0};
+	  static int[] r4c5 = {0, 0, 0, 0, 0, 0};
+	  static int[] r4c6 = {0, 0, 0, 0, 0, 0};
+	  static int[] r5c1 = {0, 0, 0, 0, 0, 0};
+	  static int[] r5c2 = {0, 0, 0, 0, 0, 0};
+	  static int[] r5c3 = {0, 0, 0, 0, 0, 0};
+	  static int[] r5c4 = {0, 0, 0, 0, 0, 0};
+	  static int[] r5c5 = {0, 0, 0, 0, 0, 0};
+	  static int[] r5c6 = {0, 0, 0, 0, 0, 0};
+	  static int[] r6c1 = {0, 0, 0, 0, 0, 0};
+	  static int[] r6c2 = {0, 0, 0, 0, 0, 0};
+	  static int[] r6c3 = {0, 0, 0, 0, 0, 0};
+	  static int[] r6c4 = {0, 0, 0, 0, 0, 0};
+	  static int[] r6c5 = {0, 0, 0, 0, 0, 0};
+	  static int[] r6c6 = {0, 0, 0, 0, 0, 0}; 		
+	
+	  public static void main (String[] args){
+		System.out.println("-----------------------\nH: Heuristic Value\nL: Lisa's Location\nP: Player's Location\nW: Wall\nE: Exit\nO: Orb\n-----------------------");
+		System.out.println("n.) [H, L, P, W, E, O]\n");
+			 
+		//FindLisa.FindL();
+		//FindPlayer.FindP();
+		//Think.thinkLisa();
+		Heuristics.computeVertically();
+		
+		System.out.print("1.) ");
+		System.out.println(Arrays.toString(r1c1));
+		System.out.print("2.) ");
+		System.out.println(Arrays.toString(r1c2));
+		System.out.print("3.) ");
+		System.out.println(Arrays.toString(r1c3));
+		System.out.print("4.) ");
+		System.out.println(Arrays.toString(r1c4));
+		System.out.print("5.) ");
+		System.out.println(Arrays.toString(r1c5));
+		System.out.print("6.) ");
+		System.out.println(Arrays.toString(r1c6));
+		System.out.print("7.) ");
+		System.out.println(Arrays.toString(r2c1));
+		System.out.print("8.) ");
+		System.out.println(Arrays.toString(r2c2));
+		System.out.print("9.) ");
+		System.out.println(Arrays.toString(r2c3));
+		System.out.print("10.)");
+		System.out.println(Arrays.toString(r2c4));
+		System.out.print("11.)");
+		System.out.println(Arrays.toString(r2c5));
+		System.out.print("12.)");
+		System.out.println(Arrays.toString(r2c6));
+		System.out.print("13.)");
+		System.out.println(Arrays.toString(r3c1));
+		System.out.print("14.)");
+		System.out.println(Arrays.toString(r3c2));
+		System.out.print("15.)");
+		System.out.println(Arrays.toString(r3c3));
+		System.out.print("16.)");
+		System.out.println(Arrays.toString(r3c4));
+		System.out.print("17.)");
+		System.out.println(Arrays.toString(r3c5));
+		System.out.print("18.)");
+		System.out.println(Arrays.toString(r3c6));
+		System.out.print("19.)");
+		System.out.println(Arrays.toString(r4c1));
+		System.out.print("20.)");
+		System.out.println(Arrays.toString(r4c2));
+		System.out.print("21.)");
+		System.out.println(Arrays.toString(r4c3));
+		System.out.print("22.)");
+		System.out.println(Arrays.toString(r4c4));
+		System.out.print("23.)");
+		System.out.println(Arrays.toString(r4c5));
+		System.out.print("24.)");
+		System.out.println(Arrays.toString(r4c6));
+		System.out.print("25.)");
+		System.out.println(Arrays.toString(r5c1));
+		System.out.print("26.)");
+		System.out.println(Arrays.toString(r5c2));
+		System.out.print("27.)");
+		System.out.println(Arrays.toString(r5c3));
+		System.out.print("28.)");
+		System.out.println(Arrays.toString(r5c4));
+		System.out.print("29.)");
+		System.out.println(Arrays.toString(r5c5));
+		System.out.print("30.)");
+		System.out.println(Arrays.toString(r5c6));
+		System.out.print("31.)");
+		System.out.println(Arrays.toString(r6c1));
+		System.out.print("32.)");
+		System.out.println(Arrays.toString(r6c2));
+		System.out.print("33.)");
+		System.out.println(Arrays.toString(r6c3));
+		System.out.print("34.)");
+		System.out.println(Arrays.toString(r6c4));
+		System.out.print("35.)");
+		System.out.println(Arrays.toString(r6c5));
+		System.out.print("36.)");
+		System.out.println(Arrays.toString(r6c6));
+		
+	}//  static void main (String[] args){
+}//  class Main {
